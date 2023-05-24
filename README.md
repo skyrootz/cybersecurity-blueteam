@@ -1,12 +1,11 @@
-# Awesome Cybersecurity Blue Team [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-
+# Awesome Cybersecurity Blue Team 🤑💀
 > A collection of awesome resources, tools, and other shiny things for cybersecurity blue teams.
 
 [Cybersecurity blue teams](https://en.wikipedia.org/wiki/Blue_team_(computer_security)) are groups of individuals who identify security flaws in information technology systems, verify the effectiveness of security measures, and monitor the systems to ensure that implemented defensive measures remain effective in the future. While not exclusive, this list is heavily biased towards [Free Software](https://www.gnu.org/philosophy/free-sw.html) projects and against proprietary products or corporate services. For offensive TTPs, please see [awesome-pentest](https://github.com/meitar/awesome-pentest).
 
-Your contributions and suggestions are heartily♥ welcome. (✿◕‿◕). Please check the [Contributing Guidelines](CONTRIBUTING.md) for more details. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Your contributions and suggestions are heartily♥ welcome Please check the [Contributing Guidelines](CONTRIBUTING.md) for more details. This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-## Contents
+## Contents😎
 
 - [Automation](#automation)
 - [Cloud platform security](#cloud-platform-security)
@@ -39,7 +38,7 @@ Your contributions and suggestions are heartily♥ welcome. (✿◕‿◕). Plea
 - [macOS-based defenses](#macos-based-defenses)
 - [Windows-based defenses](#windows-based-defenses)
 
-## Automation
+## Automation😎
 
 - [Ansible Lockdown](https://ansiblelockdown.io/) - Curated collection of information security themed Ansible roles that are both vetted and actively maintained.
 - [Clevis](https://github.com/latchset/clevis) - Plugable framework for automated decryption, often used as a Tang client.
@@ -54,7 +53,7 @@ Your contributions and suggestions are heartily♥ welcome. (✿◕‿◕). Plea
 - [python-sandboxapi](https://github.com/InQuest/python-sandboxapi) - Minimal, consistent Python API for building integrations with malware sandboxes.
 - [python-stix2](https://github.com/oasis-open/cti-python-stix2) - Python APIs for serializing and de-serializing Structured Threat Information eXpression (STIX) JSON content, plus higher-level APIs for common tasks.
 
-## Cloud platform security
+## Cloud platform security😎
 
 See also [asecure.cloud/tools](https://asecure.cloud/tools/).
 
@@ -62,11 +61,11 @@ See also [asecure.cloud/tools](https://asecure.cloud/tools/).
 - [Prowler](https://github.com/toniblyx/prowler) - Tool based on AWS-CLI commands for Amazon Web Services account security assessment and hardening.
 - [Scout Suite](https://github.com/nccgroup/ScoutSuite) - Open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 
-## Communications security (COMSEC)
+## Communications security (COMSEC)😎
 
 - [GPG Sync](https://github.com/firstlookmedia/gpgsync) - Centralize and automate OpenPGP public key distribution, revocation, and updates amongst all members of an organization or team.
 
-## DevSecOps
+## DevSecOps😎
 
 See also [awesome-devsecops](https://github.com/devsecops/awesome-devsecops).
 
@@ -82,34 +81,34 @@ See also [awesome-devsecops](https://github.com/devsecops/awesome-devsecops).
 - [Snyk](https://snyk.io/) - Finds and fixes vulnerabilities and license violations in open source dependencies and container images.
 - [SonarQube](https://sonarqube.org) - Continuous inspection tool that provides detailed reports during automated testing and alerts on newly introduced security vulnerabilities.
 
-### Application or Binary Hardening
+### Application or Binary Hardening😎
 
 - [Egalito](https://egalito.org/) - Binary recompiler and instrumentation framework that can fully disassemble, transform, and regenerate ordinary Linux binaries designed for binary hardening and security research.
 
-### Fuzzing
+### Fuzzing😎
 
 See [Awesome-Fuzzing](https://github.com/secfigo/Awesome-Fuzzing).
 
 * [FuzzBench](https://google.github.io/fuzzbench/) - Free service that evaluates fuzzers on a wide variety of real-world benchmarks, at Google scale.
 
-### Policy enforcement
+### Policy enforcement😎
 
 - [OpenPolicyAgent](https://www.openpolicyagent.org/) - Unified toolset and framework for policy across the cloud native stack.
 - [Tang](https://github.com/latchset/tang) - Server for binding data to network presence; provides data to clients only when they are on a certain (secured) network.
 
-## Honeypots
+## Honeypots😎
 
 See also [awesome-honeypots](https://github.com/paralax/awesome-honeypots).
 
 - [CanaryTokens](https://github.com/thinkst/canarytokens) - Self-hostable honeytoken generator and reporting dashboard; demo version available at [CanaryTokens.org](https://canarytokens.org/).
 - [Kushtaka](https://kushtaka.org) - Sustainable all-in-one honeypot and honeytoken orchestrator for under-resourced blue teams.
 
-### Tarpits
+### Tarpits😎
 
 - [Endlessh](https://github.com/skeeto/endlessh) - SSH tarpit that slowly sends an endless banner.
 - [LaBrea](http://labrea.sourceforge.net/labrea-info.html) - Program that answers ARP requests for unused IP space, creating the appearance of fake machines that answer further requests very slowly in order to slow down scanners, worms, etcetera.
 
-## Host-based tools
+## Host-based tools😎
 
 - [Artillery](https://github.com/BinaryDefense/artillery) - Combination honeypot, filesystem monitor, and alerting system designed to protect Linux and Windows operating systems.
 - [chkrootkit](http://chkrootkit.org/) - Locally checks for signs of a rootkit on GNU/Linux systems.
@@ -119,17 +118,17 @@ See also [awesome-honeypots](https://github.com/paralax/awesome-honeypots).
 - [Open Source HIDS SECurity (OSSEC)](https://www.ossec.net/) - Fully open source and free, feature-rich, Host-based Instrusion Detection System (HIDS).
 - [Rootkit Hunter (rkhunter)](http://rkhunter.sourceforge.net/) - POSIX-compliant Bash script that scans a host for various signs of malware.
 
-### Sandboxes
+### Sandboxes😎
 
 - [Firejail](https://firejail.wordpress.com/) - SUID program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces and seccomp-bpf.
 
-## Incident Response tools
+## Incident Response tools😎
 
 See also [awesome-incident-response](https://github.com/meirwah/awesome-incident-response).
 
 - [aws_ir](https://github.com/ThreatResponse/aws_ir) - Automates your incident response with zero security preparedness assumptions.
 
-### IR management consoles
+### IR management consoles😎
 
 - [CIRTKit](https://github.com/opensourcesec/CIRTKit) - Scriptable Digital Forensics and Incident Response (DFIR) toolkit built on Viper.
 - [Fast Incident Response (FIR)](https://github.com/certsocietegenerale/FIR) - Cybersecurity incident management platform allowing for easy creation, tracking, and reporting of cybersecurity incidents.
@@ -137,7 +136,7 @@ See also [awesome-incident-response](https://github.com/meirwah/awesome-incident
 - [TheHive](https://thehive-project.org/) - Scalable, free Security Incident Response Platform designed to make life easier for SOCs, CSIRTs, and CERTs, featuring tight integration with MISP.
 - [threat_note](https://github.com/defpoint/threat_note) - Web application built by Defense Point Security to allow security researchers the ability to add and retrieve indicators related to their research.
 
-### Evidence collection
+### Evidence collection😎
 
 - [AutoMacTC](https://github.com/CrowdStrike/automactc) - Modular, automated forensic triage collection framework designed to access various forensic artifacts on macOS, parse them, and present them in formats viable for analysis.
 - [OSXAuditor](https://github.com/jipegit/OSXAuditor) - Free macOS computer forensics tool.
@@ -145,22 +144,22 @@ See also [awesome-incident-response](https://github.com/meirwah/awesome-incident
 - [ir-rescue](https://github.com/diogo-fernan/ir-rescue) - Windows Batch script and a Unix Bash script to comprehensively collect host forensic data during incident response.
 - [Margarita Shotgun](https://github.com/ThreatResponse/margaritashotgun) - Command line utility (that works with or without Amazon EC2 instances) to parallelize remote memory acquisition.
 
-## Network perimeter defenses
+## Network perimeter defenses😎
 
 - [fwknop](https://www.cipherdyne.org/fwknop/) - Protects ports via Single Packet Authorization in your firewall.
 - [ssh-audit](https://github.com/jtesta/ssh-audit) - Simple tool that makes quick recommendations for improving an SSH server's security posture.
 
-### Firewall appliances or distributions
+### Firewall appliances or distributions😎
 
 - [OPNsense](https://opnsense.org/) - FreeBSD based firewall and routing platform.
 - [pfSense](https://www.pfsense.org/) - Firewall and router FreeBSD distribution.
 
-## Operating System distributions
+## Operating System distributions😎
 
 - [Computer Aided Investigative Environment (CAINE)](https://caine-live.net/) - Italian GNU/Linux live distribution that pre-packages numerous digital forensics and evidence collection tools.
 - [Security Onion](https://securityonion.net/) - Free and open source GNU/Linux distribution for intrusion detection, enterprise security monitoring, and log management.
 
-## Phishing awareness and reporting
+## Phishing awareness and reporting😎
 
 See also [awesome-pentest § Social Engineering Tools](https://github.com/meitar/awesome-pentest#social-engineering-tools).
 
@@ -173,7 +172,7 @@ See also [awesome-pentest § Social Engineering Tools](https://github.com/meitar
 - [mailspoof](https://github.com/serain/mailspoof) - Scans SPF and DMARC records for issues that could allow email spoofing.
 - [phishing_catcher](https://github.com/x0rz/phishing_catcher) - Configurable script to watch for issuances of suspicious TLS certificates by domain name in the Certificate Transparency Log (CTL) using the [CertStream](https://certstream.calidog.io/) service.
 
-## Preparedness training and wargaming
+## Preparedness training and wargaming😎
 
 (Also known as *adversary emulation*, *threat simulation*, or similar.)
 
@@ -184,13 +183,13 @@ See also [awesome-pentest § Social Engineering Tools](https://github.com/meitar
 - [Network Flight Simulator (`flightsim`)](https://github.com/alphasoc/flightsim) - Utility to generate malicious network traffic and help security teams evaluate security controls and audit their network visibility.
 - [RedHunt OS](https://github.com/redhuntlabs/RedHunt-OS) - Ubuntu-based Open Virtual Appliance (`.ova`) preconfigured with several threat emulation tools as well as a defender's toolkit.
 
-## Security monitoring
+## Security monitoring😎
 
-### Endpoint Detection and Response (EDR)
+### Endpoint Detection and Response (EDR)😎
 
 - [Wazuh](https://wazuh.com/) - Open source, multiplatform agent-based security monitoring based on a fork of OSSEC HIDS.
 
-### Network Security Monitoring (NSM)
+### Network Security Monitoring (NSM)😎😎
 
 See also [awesome-pcaptools](https://github.com/caesar0301/awesome-pcaptools).
 
@@ -208,12 +207,12 @@ See also [awesome-pcaptools](https://github.com/caesar0301/awesome-pcaptools).
 - [netsniff-ng](http://netsniff-ng.org/) -  Free and fast GNU/Linux networking toolkit with numerous utilities such as a connection tracking tool (`flowtop`), traffic generator (`trafgen`), and autonomous system (AS) trace route utility (`astraceroute`).
 
 
-### Security Information and Event Management (SIEM)
+### Security Information and Event Management (SIEM)😎
 
 - [AlienVault OSSIM](https://www.alienvault.com/open-threat-exchange/projects) - Single-server open source SIEM platform featuring asset discovery, asset inventorying, behavioral monitoring, and event correlation, driven by AlienVault Open Threat Exchange (OTX).
 - [Prelude SIEM OSS](https://www.prelude-siem.org/) - Open source, agentless SIEM with a long history and several commercial variants featuring security event collection, normalization, and alerting from arbitrary log input and numerous popular monitoring tools.
 
-### Service and performance monitoring
+### Service and performance monitoring😎
 
 See also [awesome-sysadmin#monitoring](https://github.com/n1trux/awesome-sysadmin#monitoring).
 
@@ -223,7 +222,7 @@ See also [awesome-sysadmin#monitoring](https://github.com/n1trux/awesome-sysadmi
 - [OpenNMS](https://opennms.org/) - Free and feature-rich networking monitoring system supporting multiple configurations, a variety of alerting mechanisms (email, XMPP, SMS), and numerous data collection methods (SNMP, HTTP, JDBC, etc).
 - [osquery](https://github.com/facebook/osquery) - Operating system instrumentation framework for macOS, Windows, and Linux, exposing the OS as a high-performance relational database that can be queried with a SQL-like syntax.
 
-### Threat hunting
+### Threat hunting😎
 
 (Also known as *hunt teaming* and *threat detection*.)
 
@@ -240,7 +239,7 @@ See also [awesome-threat-detection](https://github.com/0x4D31/awesome-threat-det
 - [rastrea2r](https://github.com/rastrea2r/rastrea2r) - Multi-platform tool for triaging suspected IOCs on many endpoints simultaneously and that integrates with antivirus consoles.
 - [Redline](https://www.fireeye.com/services/freeware/redline.html) - Freeware endpoint auditing and analysis tool that provides host-based investigative capabilities, offered by FireEye, Inc.
 
-## Threat intelligence
+## Threat intelligence😎
 
 See also [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence).
 
@@ -255,28 +254,28 @@ See also [awesome-threat-intelligence](https://github.com/hslatman/awesome-threa
 - [Unfetter](https://nsacyber.github.io/unfetter/) - Identifies defensive gaps in security posture by leveraging Mitre's ATT&CK framework.
 - [Viper](https://github.com/viper-framework/viper) - Binary analysis and management framework enabling easy organization of malware and exploit samples.
 
-## Tor Onion service defenses
+## Tor Onion service defenses😎
 
 See also [awesome-tor](https://github.com/ajvb/awesome-tor).
 
 - [OnionBalance](https://onionbalance.readthedocs.io/) - Provides load-balancing while also making Onion services more resilient and reliable by eliminating single points-of-failure.
 - [Vanguards](https://github.com/mikeperry-tor/vanguards) - Version 3 Onion service guard discovery attack mitigation script (intended for eventual inclusion in Tor core).
 
-## Transport-layer defenses
+## Transport-layer defenses😎
 
 - [Certbot](https://certbot.eff.org/) - Free tool to automate the issuance and renewal of TLS certificates from the [LetsEncrypt Root CA](https://letsencrypt.org/) with plugins that configure various Web and e-mail server software.
 - [MITMEngine](https://github.com/cloudflare/mitmengine) - Golang library for server-side detection of TLS interception events.
 - [OpenVPN](https://openvpn.net/) - Open source, SSL/TLS-based virtual private network (VPN).
 - [Tor](https://torproject.org/) - Censorship circumvention and anonymizing overlay network providing distributed, cryptographically verified name services (`.onion` domains) to enhance publisher privacy and service availability.
 
-## macOS-based defenses
+## macOS-based defenses😎
 
 - [LuLu](https://objective-see.com/products/lulu.html) - Free macOS firewall.
 - [Santa](https://github.com/google/santa) - Binary whitelisting/blacklisting system for macOS.
 - [Stronghold](https://github.com/alichtman/stronghold) - Easily configure macOS security settings from the terminal.
 - [macOS Fortress](https://github.com/essandess/macOS-Fortress) - Automated configuration of kernel-level, OS-level, and client-level security features including privatizing proxying and anti-virus scanning for macOS.
 
-## Windows-based defenses
+## Windows-based defenses😎
 
 See also [awesome-windows#security](https://github.com/Awesome-Windows/Awesome#security) and [awesome-windows-domain-hardening](https://github.com/PaulSec/awesome-windows-domain-hardening).
 
